@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Quizz</title>
+</head>
+<body>
+    <header>
+        <h1> Eng.Nada KHEMAKHEM </h1>
+        <nav class="menu">
+            <ul>
+                <li><a id="PageAcceuil" href="index.html">Page d'acceuil</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn">curriculum vitæ ▼</a>
+                    <div class="dropdown-content">
+                        <a href="Competences.html">Compétences</a>
+                        <a href="stages.html" > Expériences professionnelles</a>
+                        <a href="parcoursAcademique.html">Parcours Academique</a>
+                        <a href="MatieresEtProjet.html"> Matieres et Projets</a>
+                    </div>
+                </li>                
+                <li class="dropdown">
+                    <a class="dropbtn">Vie Sociale ▼</a>
+                    <div class="dropdown-content">
+                        <a href="events.html">Evenements</a>
+                        <a href="passions.html"> Passions</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn">Plus ▼</a>
+                    <div class="dropdown-content">
+                        <a href="quizz.html"> Quizz</a>
+                        <a href="TemoignageIIT.html"> Temoignage sur l'IIT</a>
+                    </div>
+                </li>
+                <li class="contact"><a href="contact.html"> Contact</a></li>
+            </ul>
+        </nav>
+        <h2 class="competences-title">Quizz</h2>
+    </header>
+
+    
+    <main>
+    <form id="quizForm">
+        <section class="quizz">
+            <ol class="question-container">
+                <li class="question">
+                    <h6>Que signifie HTML ?</h6>
+                    <input type="radio" class="radio" name="Q1" id="C1" value="1" checked="checked">
+                    <label for="C1">HyperText Markup Language</label>
+                    <input type="radio" class="radio" name="Q1" id="C2" value="2">
+                    <label for="C2">HighTech Multi Language</label>
+                    <input type="radio" class="radio" name="Q1" id="C3" value="3">
+                    <label for="C3">HyperText Multiple Language</label>
+                </li>
+                <li class="question">
+                    <h6>Quelle propriété CSS change la couleur du texte ?</h6>
+                    <input type="radio" class="radio" name="Q2" id="C1" value="1" checked="checked">
+                    <label for="C1">text-color</label>
+                    <input type="radio" class="radio" name="Q2" id="C2" value="2">
+                    <label for="C2">font-color</label>
+                    <input type="radio" class="radio" name="Q2" id="C3" value="3">
+                    <label for="C3">color</label>
+                </li>
+                <li class="question">
+                    <h6>Quelle balise est utilisée pour un lien hypertexte ?</h6>
+                    <input type="radio" class="radio" name="Q3" id="C1" value="1" checked="checked">
+                    <label for="C1">balise link</label>
+                    <input type="radio" class="radio" name="Q3" id="C2" value="2">
+                    <label for="C2">balise a</label>
+                    <input type="radio" class="radio" name="Q3" id="C3" value="3">
+                    <label for="C3">baise href</label>
+                </li>
+                <li class="question">
+                    <h6>Lequel n'est PAS un langage de programmation ?</h6>
+                    <input type="radio" class="radio" name="Q4" id="C1" value="1" checked="checked">
+                    <label for="C1">python</label>
+                    <input type="radio" class="radio" name="Q4" id="C2" value="2">
+                    <label for="C2">html</label>
+                    <input type="radio" class="radio" name="Q4" id="C3" value="3">
+                    <label for="C3">css</label>
+                </li>
+                <li class="question">
+                    <h6>Que signifie CSS ?</h6>
+                    <input type="radio"    class="radio" name="Q5" id="C1" value="1" checked="checked">
+                    <label for="C1">Computer Style Sheets</label>
+                    <input type="radio" class="radio" name="Q5" id="C2" value="2">
+                    <label for="C2">Cascading Style Sheets</label>
+                    <input type="radio" class="radio" name="Q5" id="C3" value="3">
+                    <label for="C3">Colorful Style Sheets</label>
+                </li>
+                <li class="question">
+                    <h6>Comment déclarer une variable en JavaScript moderne ?</h6>
+                    <input type="radio" class="radio" name="Q6" id="C1" value="1" checked="checked">
+                    <label for="C1">let</label>
+                    <input type="radio" class="radio" name="Q6" id="C2" value="2">
+                    <label for="C2">v</label>
+                    <input type="radio" class="radio" name="Q6" id="C3" value="3">
+                    <label for="C3">variable</label>
+                </li>
+                <li class="question">
+                    <h6>Quelle balise HTML crée une liste à puces ?</h6>
+                    <input type="radio" class="radio" name="Q7" id="C1" value="1" checked="checked">
+                    <label for="C1">ul</label>
+                    <input type="radio" class="radio" name="Q7" id="C2" value="2">
+                    <label for="C2">ol</label>
+                    <input type="radio" class="radio" name="Q7" id="C3" value="3">
+                    <label for="C3">li</label>
+                </li>
+                <li class="question">
+                    <h6>Quel est le rôle principal de JavaScript ?</h6>
+                    <input type="radio" class="radio" name="Q8" id="C1" value="1" checked="checked">
+                    <label for="C1">Structurer la page</label>
+                    <input type="radio" class="radio" name="Q8" id="C2" value="2">
+                    <label for="C2">Rendre la page interactive</label>
+                    <input type="radio" class="radio" name="Q8" id="C3" value="3">
+                    <label for="C3">Gérer la base de données</label>
+                </li>
+                <li class="question">
+                    <h6>Quelle propriété CSS rend un texte gras ?</h6>
+                    <input type="radio" class="radio" name="Q9" id="C1" value="1" checked="checked">
+                    <label for="C1">font-weight: bold</label>
+                    <input type="radio" class="radio" name="Q9" id="C2" value="2">
+                    <label for="C2">font: bold</label>
+                    <input type="radio" class="radio" name="Q9" id="C3" value="3">
+                    <label for="C3">style: bold</label>
+                </li>
+                <li class="question">
+                    <h6>Quelle baEn HTML, quelle balise est utilisée pour la plus grande entête ?</h6>
+                    <input type="radio" class="radio" name="Q10" id="C1" value="1" checked="checked">
+                    <label for="C1">h1</label>
+                    <input type="radio" class="radio" name="Q10" id="C2" value="2">
+                    <label for="C2">head</label>
+                    <input type="radio" class="radio" name="Q10" id="C3" value="3">
+                    <label for="C3">header</label>
+                </li>
+                <button type="submit" id="submitQuiz" onclick=" event.preventDefault();">Vérifier les Réponses</button>
+
+            </ol>
+        </section>
+    </form>
+
+    </main>
+
+
+
+
+    <footer>
+        <p> © 2025 - Mon site personnel </p>
+    </footer>
+    
+    <script src="quizz.js"></script>
+</body>
+</html>
