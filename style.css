@@ -612,22 +612,28 @@ textarea {
 .question-container{
     list-style: none;
 }
-.quizz{
-    margin-bottom: 800px;
+.quizz {
+    margin-bottom: 100px; 
+
     display: block;
-    unicode-bidi: isolate;
+    position: absolute;
+    top:10px;
+    bottom: 300px;
+    padding-bottom: 80px
 }
+
+
 #submitQuiz {
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 1.1rem;
-        position: absolute;
-        bottom: 200px;
-        margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #535456;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+
+    display: block;
+    margin: 20px auto;
 }
 
 .correct { border: 2px solid green; }
